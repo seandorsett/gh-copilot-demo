@@ -37,6 +37,9 @@ const albums = ref<Album[]>([])
 const loading = ref<boolean>(true)
 const error = ref<string | null>(null)
 
+// fetch the albums from the API
+// define the function to fetch albums from the API
+
 const fetchAlbums = async (): Promise<void> => {
   try {
     loading.value = true
